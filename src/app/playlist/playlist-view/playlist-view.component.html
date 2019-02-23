@@ -1,0 +1,92 @@
+<div class="row">
+   <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="page-header">
+         <h2>
+            <span class="fa fa-headphones h-icon" style="padding-right:5px;" aria-hidden="true"></span>
+            <span>{{song?.name}}</span>
+         </h2>
+      </div>
+   </div>
+</div>
+<div class="back-link">
+   <a routerLink="/playlist" class="btn btn-accent">Back to Playlist</a>
+</div>
+<br>
+<div class="row">
+   <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="panel panel-filled">
+         <div class="panel-body">
+            <table class="table table-condensed">
+               <tbody>
+                  <tr>
+                     <td>
+                        <div class="song-big-font">{{song?.name}}</div>
+                        <div>Name</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.artists}}</div>
+                        <div>Artists</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.rank}}</div>
+                        <div>Rank</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.danceability}}</div>
+                        <div>Danceability</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.energy}}</div>
+                        <div>Energy</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="song-big-font">{{song?.key}}</div>
+                        <div>Key</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.loudness}}</div>
+                        <div>Loudness</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.mode}}</div>
+                        <div>Mode</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.speechiness}}</div>
+                        <div>speechiness</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.acousticness}}</div>
+                        <div>Acousticness</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="song-big-font">{{song?.instrumentalness}}</div>
+                        <div>Instrumentalness</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.liveness}}</div>
+                        <div>Liveness</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.valence}}</div>
+                        <div>Valence</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.time_signature}}</div>
+                        <div>Time_signature</div>
+                     </td>
+                     <td>
+                        <div class="song-big-font">{{song?.duration_ms}}</div>
+                        <div>Duration_ms</div>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>
